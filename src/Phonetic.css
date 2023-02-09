@@ -1,0 +1,18 @@
+.Phonetic button {
+  background: none;
+  border: 1px solid #116466;
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin: 5px 15px 5px;
+  transition: all 150ms ease-in-out;
+}
+.Phonetic button:hover {
+  background: #d1e8e2;
+}
+.Phonetic i {
+  font-size: 18px;
+}
+.Phonetic span {
+  font-size: 18px;
+  opacity: 0.7;
+}

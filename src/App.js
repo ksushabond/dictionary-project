@@ -6,14 +6,21 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
-        </header>
+        <header className="App-header">📖 Dictionery</header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="spring" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Oxana Bond</small>
+          <small>
+            Coded by{" "}
+            <a
+              href="https://github.com/ksushabond/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Oxana Bond
+            </a>
+          </small>
         </footer>
       </div>
     </div>

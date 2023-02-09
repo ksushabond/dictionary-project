@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">📖 Dictionery</header>
+        <header className="App-header">📖 Make your words meaningful</header>
         <main>
           <Dictionary defaultKeyword="spring" />
         </main>
